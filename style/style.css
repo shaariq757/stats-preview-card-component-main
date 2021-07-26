@@ -20,7 +20,7 @@ body {
   height: 55vh;
 }
 .img-div {
-  background:linear-gradient(rgba(107, 38, 236, 0.4),rgba(107,38,236,.4)),url('/images/image-header-desktop.jpg');
+  background:linear-gradient(rgba(107, 38, 236, 0.4),rgba(107,38,236,.4)),url('/stats-preview-card-component-main/images/image-header-desktop.jpg');
   flex:1;
   background-repeat:round;
   position: relative;
@@ -77,7 +77,7 @@ a {
     font-size: 10px;
   }
   .img-div {
-    background: url("/images/image-header-mobile.jpg");
+    background: url("/stats-preview-card-component-main/images/image-header-mobile.jpg");
   }
   img {
     border-radius: 0.5rem 0.5rem 0 0;
