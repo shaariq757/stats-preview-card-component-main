@@ -17,19 +17,16 @@ body {
   display: flex;
   flex-direction: row;
   width: 75%;
-  height: 55vh;
+  height: 60vh;
 }
 .img-div {
-  background:linear-gradient(rgba(107, 38, 236, 0.4),rgba(107,38,236,.4)),url('/stats-preview-card-component-main/images/image-header-desktop.jpg');
+  background:linear-gradient(rgba(107, 38, 236, 0.4),rgba(107,38,236,.4)),url('../images/image-header-desktop.jpg');
   flex:1;
   background-repeat:round;
   position: relative;
   border-radius: 0 0.5rem 0.5rem 0;
 }
-img {
-  max-width:100%;
-  border-radius: inherit;
-}
+
 .text {
   background-color: rgb(21, 2, 51);
   border-radius: 0.5rem 0 0 0.5rem;
@@ -71,14 +68,10 @@ a {
 @media screen and (max-width:640px) {
   .main {
     flex-direction: column-reverse;
-    position: absolute;
-    top: 70vh;
     font-size: 10px;
   }
   .img-div {
-    background: url("/stats-preview-card-component-main/images/image-header-mobile.jpg");
-  }
-  img {
+    background:inherit,url('../images/image-header-mobile.jpg');
     border-radius: 0.5rem 0.5rem 0 0;
   }
   .text {
@@ -96,7 +89,7 @@ a {
   }
   .attribution {
     position: absolute;
-    top: 120vh;
+    top:100%;
     left: 50%;
     font-size: 13px;
     transform: translate(-50%, -60%);
