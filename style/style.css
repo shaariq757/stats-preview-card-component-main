@@ -72,10 +72,7 @@ a {
   .main {
     flex-direction: column-reverse;
     position: absolute;
-    top:50%;
-    left: 25%;
-    width: 50%;
-    max-height: max-content;
+    top: 70vh;
     font-size: 10px;
   }
   .img-div {
@@ -99,7 +96,7 @@ a {
   }
   .attribution {
     position: absolute;
-    top: 100%;
+    top: 120vh;
     left: 50%;
     font-size: 13px;
     transform: translate(-50%, -60%);
